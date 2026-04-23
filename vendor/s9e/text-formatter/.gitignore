@@ -1,0 +1,6 @@
+/.*
+/composer.lock
+/scripts/composer.lock
+/scripts/vendor
+/tests/.cache
+/vendor
