@@ -1,0 +1,40 @@
+{
+    "name": "ulasimarsiv/upload-exif",
+    "version": "1.2.5",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "upload",
+        "exif",
+        "image"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alikaankaya",
+            "email": "alikaan@ulasimarsiv.com",
+            "role": "Spotter & Developer"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0",
+        "intervention/image": "^3.0",
+        "google/cloud-storage": "^1.30"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Ulaşım Arşiv Upload & EXIF",
+            "icon": {
+                "name": "fas fa-camera",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "UlasimArsiv\\UploadExif\\": "src/"
+        }
+    },
+    "minimum-stability": "beta"
+}
